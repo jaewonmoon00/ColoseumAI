@@ -33,4 +33,7 @@ class Agent:
         dir : int
             The direction of the agent, as defined in world.py (DIRECTION_UP/DIRECTION_DOWN/DIRECTION_LEFT/DIRECTION_RIGHT).
         """
+        current_pos = my_pos
+        # do something with my_pos
+        new_pos = my_pos
         return my_pos
