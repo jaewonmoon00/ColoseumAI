@@ -1,3 +1,0 @@
-[submodule "gym-minigrid"]
-	path = gym-minigrid
-	url = https://github.com/maximecb/gym-minigrid.git
