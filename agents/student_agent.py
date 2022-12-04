@@ -37,4 +37,25 @@ class StudentAgent(Agent):
         Please check the sample implementation in agents/random_agent.py or agents/human_agent.py for more details.
         """
         # dummy return
+        """
+        plan:
+        tree implementation:
+        dictionary : we would have to map each move to a key - we can use strings?
+            have multiple dictionaries, one for the values, one for the list of children
+        
+        could also make a nested class to make code more readable
+
+        simulating a node (default policy) - just make random moves, - fast simulations
+        
+        tree policy - choose an epsilon value (we can use 0.15 for now and change later)
+            1-epsilon of the time, we choose node with best winrate(if n/a then choose random node)
+            epsilon of the time, we choose random node
+
+        max height of the tree? 10 for now
+
+        how many simulations? 100-200 simulations total?
+
+        how many total times do we expand nodes? 50?
+        
+        """
         return my_pos, self.dir_map["u"]
